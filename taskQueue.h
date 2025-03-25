@@ -36,7 +36,7 @@ class TaskQueue
             return c.empty();
         }
         
-        void push(Task& t)
+        void push(Task t)
         {
             c.push_back(t);
         }
